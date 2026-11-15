@@ -9,3 +9,5 @@
 - **Tôi giữ / sửa / bỏ:** giữ
 - **Cách tôi kiểm tra:** mở bằng live sever và bấm 16 lần menu
 **Cách tôi kiểm tra lần 2:** mở bằng live sever và bấm 4 menu
+**Cách tôi kiểm tra lần 3:** không tràn ngang ,kết quả false
+
