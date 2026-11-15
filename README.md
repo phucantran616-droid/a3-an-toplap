@@ -34,7 +34,7 @@ Mở thư mục bằng VS Code, cài extension Live Server, bấm Go Live. Hoặ
 Bảng kiểm thử và ảnh minh chứng: `docs/kiem-thu.md`, thư mục `evidence/`. Mục nào chưa thử được ghi "Chưa kiểm tra".
 
 ## Khai báo sử dụng AI
-Dự án dùng Codex trong VS Code để hỗ trợ viết mã. Prompt, kết quả và cách kiểm tra từng lần ghi trong `AI_LOG.md`. (Sửa câu này cho đúng với việc bạn đã làm.)
+Dự án dùng Codex trong VS Code để hỗ trợ viết mã. Prompt, kết quả và cách kiểm tra từng lần ghi trong `AI_LOG.md`. 
 
 ## Nguồn ảnh
 Ảnh minh họa RAM, SSD, HDD là SVG tự vẽ, không lấy từ internet.
