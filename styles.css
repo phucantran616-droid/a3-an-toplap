@@ -1,0 +1,82 @@
+:root {
+  --mau-chu-dao: #1976D2;
+  --mau-chu: #263238;
+  --mau-nen: #f5f7fa;
+  --mau-sang: #fff;
+  --mau-chan-trang: #37474f;
+  --font-chu: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --khoang-cach-nho: 0.5rem;
+  --khoang-cach-vua: 1rem;
+  --khoang-cach-lon: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--mau-nen);
+  color: var(--mau-chu);
+  font-family: var(--font-chu);
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--khoang-cach-lon);
+  padding: var(--khoang-cach-vua) var(--khoang-cach-lon);
+  background-color: var(--mau-chu-dao);
+  color: var(--mau-sang);
+}
+
+header p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  gap: var(--khoang-cach-nho);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav a {
+  display: block;
+  padding: var(--khoang-cach-nho) var(--khoang-cach-vua);
+  border-radius: 0.25rem;
+  color: var(--mau-sang);
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+header nav a:focus-visible {
+  outline: 2px solid var(--mau-sang);
+  outline-offset: 2px;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--khoang-cach-lon);
+}
+
+footer {
+  padding: var(--khoang-cach-vua) var(--khoang-cach-lon);
+  background-color: var(--mau-chan-trang);
+  color: var(--mau-sang);
+}
