@@ -45,4 +45,4 @@
 ## Màu sắc và chữ
 - Dùng font hệ thống (sans-serif) để không phụ thuộc thư viện ngoài.
 - Một màu chủ đạo cho nút và tiêu đề, nền sáng, chữ tối để dễ đọc.
-- Màu chủ đạo: màu xanh da trời
+- Màu chủ đạo: xanh da trời #1976D2
