@@ -8,3 +8,4 @@
 - **AI trả về:** 4 file HTML, mỗi file 27 dòng, có menu chung và footer rỗng.
 - **Tôi giữ / sửa / bỏ:** giữ
 - **Cách tôi kiểm tra:** mở bằng live sever và bấm 16 lần menu
+**Cách tôi kiểm tra lần 2:** mở bằng live sever và bấm 4 menu
