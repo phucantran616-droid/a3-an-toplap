@@ -9,7 +9,7 @@ Website tĩnh HTML5/CSS3 giới thiệu cửa hàng linh kiện RAM, SSD, HDD (c
 - **Phiên bản nộp:** v1.0 (tag `v1.0`)
 
 ## Nội dung
-4 trang: Trang chủ, Sản phẩm (11 sản phẩm chia 3 nhóm RAM, SSD, HDD), Chính sách, Liên hệ. Giao diện responsive cho màn hình rộng và hẹp (điểm gãy 768px).
+4 trang: Trang chủ, Sản phẩm (11 sản phẩm chia 3 nhóm RAM, SSD, HDD), Chính sách, Liên hệ. Giao diện responsive cho màn hình rộng và hẹp .
 
 ## Cấu trúc thư mục
 ```
@@ -31,7 +31,7 @@ Mở thư mục bằng VS Code, cài extension Live Server, bấm Go Live. Hoặ
 - Giá, sản phẩm, số điện thoại, email và địa chỉ đều là dữ liệu minh họa.
 
 ## Kiểm thử
-Bảng kiểm thử và ảnh minh chứng: `docs/kiem-thu.md`, thư mục `evidence/`. Mục nào chưa thử được ghi "Chưa kiểm tra".
+Bảng kiểm thử và ảnh minh chứng: `docs/kiem-thu.md`, thư mục `evidence/`. 
 
 ## Khai báo sử dụng AI
 Dự án dùng Codex trong VS Code để hỗ trợ viết mã. Prompt, kết quả và cách kiểm tra từng lần ghi trong `AI_LOG.md`. 
