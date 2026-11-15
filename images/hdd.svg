@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <title>Minh họa ổ cứng HDD</title>
+  <rect width="320" height="200" rx="12" fill="#F7F5FC"/>
+  <rect x="86" y="20" width="148" height="160" rx="12" fill="#3B1C7A"/>
+  <rect x="97" y="31" width="126" height="138" rx="6" fill="#E9E3F7"/>
+  <circle cx="160" cy="91" r="48" fill="#FFFFFF"/>
+  <circle cx="160" cy="91" r="38" fill="#FFB3CF"/>
+  <circle cx="160" cy="91" r="26" fill="#F7F5FC"/>
+  <circle cx="160" cy="91" r="8" fill="#3B1C7A"/>
+  <path d="M200 144l-33-42 8-7 37 41z" fill="#D6336C"/>
+  <circle cx="205" cy="140" r="8" fill="#2A1457"/>
+  <g fill="#FFB3CF">
+    <circle cx="92" cy="26" r="3"/>
+    <circle cx="228" cy="26" r="3"/>
+    <circle cx="92" cy="174" r="3"/>
+    <circle cx="228" cy="174" r="3"/>
+  </g>
+</svg>

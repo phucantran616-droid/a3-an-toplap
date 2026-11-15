@@ -147,6 +147,60 @@ main {
   color: var(--mau-chu-dao);
 }
 
+.trang-san-pham h1 {
+  margin-bottom: 0.25rem;
+}
+
+.ghi-chu-san-pham {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.trang-san-pham > section {
+  margin-top: var(--khoang-cach-lon);
+}
+
+.luoi-san-pham {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--khoang-cach-vua);
+}
+
+.the-san-pham {
+  display: flex;
+  flex-direction: column;
+  padding: var(--khoang-cach-vua);
+  border: 1px solid var(--mau-chu-chan-trang);
+  border-radius: 0.375rem;
+  background-color: var(--mau-sang);
+}
+
+.the-san-pham img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.the-san-pham h3 {
+  margin: var(--khoang-cach-vua) 0 var(--khoang-cach-nho);
+  font-size: 1rem;
+}
+
+.the-san-pham p {
+  margin: 0 0 var(--khoang-cach-vua);
+}
+
+.the-san-pham .gia-san-pham {
+  margin-top: auto;
+  padding-top: var(--khoang-cach-vua);
+  font-weight: 700;
+}
+
+.the-san-pham .nut {
+  align-self: flex-start;
+}
+
 footer {
   padding: var(--khoang-cach-vua) var(--le-hai-ben);
   background-color: var(--mau-chan-trang);
