@@ -1,13 +1,22 @@
 :root {
-  --mau-chu-dao: #1976D2;
-  --mau-chu: #263238;
-  --mau-nen: #f5f7fa;
-  --mau-sang: #fff;
-  --mau-chan-trang: #37474f;
+  --mau-chu-dao: #3B1C7A;
+  --mau-chu: #1E1633;
+  --mau-nen: #F7F5FC;
+  --mau-sang: #FFFFFF;
+  --mau-chan-trang: #2A1457;
+  --mau-chu-chan-trang: #E9E3F7;
+  --mau-nut: #D6336C;
+  --mau-chu-nut: #FFFFFF;
+  --mau-gia: #C2255C;
+  --mau-gach-chan-menu: #FFB3CF;
   --font-chu: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --co-chu-nut: 14px;
+  --do-dam-nut: 500;
   --khoang-cach-nho: 0.5rem;
   --khoang-cach-vua: 1rem;
   --khoang-cach-lon: 2rem;
+  --chieu-rong-toi-da: 1200px;
+  --le-hai-ben: max(var(--khoang-cach-lon), calc((100% - var(--chieu-rong-toi-da)) / 2 + var(--khoang-cach-lon)));
 }
 
 * {
@@ -25,12 +34,23 @@ body {
   line-height: 1.5;
 }
 
+button {
+  background-color: var(--mau-nut);
+  color: var(--mau-chu-nut);
+  font-size: var(--co-chu-nut);
+  font-weight: var(--do-dam-nut);
+}
+
+.gia-san-pham {
+  color: var(--mau-gia);
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--khoang-cach-lon);
-  padding: var(--khoang-cach-vua) var(--khoang-cach-lon);
+  padding: var(--khoang-cach-vua) var(--le-hai-ben);
   background-color: var(--mau-chu-dao);
   color: var(--mau-sang);
 }
@@ -55,11 +75,12 @@ header nav a {
   border-radius: 0.25rem;
   color: var(--mau-sang);
   text-decoration: none;
-  transition: background-color 0.2s ease;
 }
 
 header nav a:hover {
-  background-color: rgba(0, 0, 0, 0.15);
+  text-decoration: underline;
+  text-decoration-color: var(--mau-gach-chan-menu);
+  text-underline-offset: 0.2em;
 }
 
 header nav a:focus-visible {
@@ -70,13 +91,13 @@ header nav a:focus-visible {
 main {
   flex: 1;
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--chieu-rong-toi-da);
   margin: 0 auto;
   padding: var(--khoang-cach-lon);
 }
 
 footer {
-  padding: var(--khoang-cach-vua) var(--khoang-cach-lon);
+  padding: var(--khoang-cach-vua) var(--le-hai-ben);
   background-color: var(--mau-chan-trang);
-  color: var(--mau-sang);
+  color: var(--mau-chu-chan-trang);
 }

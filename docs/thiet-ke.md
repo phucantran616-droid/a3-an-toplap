@@ -41,8 +41,11 @@
 - Ba khối nhóm ở trang chủ dẫn thẳng tới phần tương ứng, ít thao tác hơn.
 - Ở màn hình hẹp, lưới giảm cột để chữ và ảnh không bị bóp nhỏ; menu gọn lại
   để nhường chỗ cho nội dung.
+- Màu phong cách trẻ trung ,năg động phù hợp với sinh viên
 
 ## Màu sắc và chữ
 - Dùng font hệ thống (sans-serif) để không phụ thuộc thư viện ngoài.
-- Một màu chủ đạo cho nút và tiêu đề, nền sáng, chữ tối để dễ đọc.
-- Màu chủ đạo: xanh da trời #1976D2
+- Màu tím cho header, màu hồng nhấn cho nút và giá; nền sáng, chữ tối để dễ đọc.
+- Màu chủ đạo: tím #3B1C7A cho header, chữ trắng #FFFFFF; footer
+  #2A1457, chữ #E9E3F7; nút #D6336C, chữ #FFFFFF; giá #C2255C;
+  nền #F7F5FC, chữ #1E1633; gạch chân menu khi hover #FFB3CF.
