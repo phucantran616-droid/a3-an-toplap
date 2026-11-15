@@ -34,11 +34,29 @@ body {
   line-height: 1.5;
 }
 
-button {
+button,
+.nut {
   background-color: var(--mau-nut);
   color: var(--mau-chu-nut);
   font-size: var(--co-chu-nut);
   font-weight: var(--do-dam-nut);
+}
+
+.nut {
+  display: inline-block;
+  padding: var(--khoang-cach-nho) var(--khoang-cach-vua);
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+.nut:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.nut:focus-visible {
+  outline: 2px solid var(--mau-chu-dao);
+  outline-offset: 3px;
 }
 
 .gia-san-pham {
@@ -96,8 +114,49 @@ main {
   padding: var(--khoang-cach-lon);
 }
 
+.trang-chu > section + section {
+  margin-top: var(--khoang-cach-lon);
+}
+
+.banner,
+.nhom-san-pham {
+  padding: var(--khoang-cach-lon);
+  border-radius: 0.25rem;
+  background-color: var(--mau-sang);
+}
+
+.banner {
+  border-left: 4px solid var(--mau-chu-dao);
+}
+
+.banner h1,
+.nhom-san-pham h3 {
+  margin-top: 0;
+}
+
+.cac-nhom-san-pham {
+  display: flex;
+  gap: var(--khoang-cach-vua);
+}
+
+.nhom-san-pham {
+  flex: 1;
+}
+
+.nhom-san-pham a {
+  color: var(--mau-chu-dao);
+}
+
 footer {
   padding: var(--khoang-cach-vua) var(--le-hai-ben);
   background-color: var(--mau-chan-trang);
   color: var(--mau-chu-chan-trang);
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p + p {
+  margin-top: var(--khoang-cach-nho);
 }
