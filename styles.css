@@ -201,6 +201,105 @@ main {
   align-self: flex-start;
 }
 
+.trang-chinh-sach h1 {
+  margin-bottom: 0.25rem;
+}
+
+.ghi-chu-chinh-sach {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.luoi-chinh-sach,
+.noi-dung-lien-he {
+  display: grid;
+  gap: var(--khoang-cach-vua);
+}
+
+.luoi-chinh-sach {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: var(--khoang-cach-lon);
+}
+
+.noi-dung-lien-he {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.the-chinh-sach,
+.khoi-lien-he {
+  padding: var(--khoang-cach-vua);
+  border: 1px solid var(--mau-chu-chan-trang);
+  border-radius: 0.375rem;
+  background-color: var(--mau-sang);
+}
+
+.the-chinh-sach h2,
+.khoi-lien-he h2 {
+  margin: 0 0 var(--khoang-cach-vua);
+  font-size: 1.25rem;
+}
+
+.the-chinh-sach ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.the-chinh-sach li + li {
+  margin-top: var(--khoang-cach-nho);
+}
+
+.khoi-lien-he p {
+  margin: 0 0 var(--khoang-cach-vua);
+}
+
+.khoi-lien-he p:last-child {
+  margin-bottom: 0;
+}
+
+.truong-lien-he {
+  margin-bottom: var(--khoang-cach-vua);
+}
+
+.truong-lien-he label {
+  display: block;
+  margin-bottom: var(--khoang-cach-nho);
+  font-weight: 600;
+}
+
+.truong-lien-he input,
+.truong-lien-he textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--mau-chu-dao);
+  border-radius: 0.25rem;
+  background-color: var(--mau-sang);
+  color: var(--mau-chu);
+  font: inherit;
+}
+
+.truong-lien-he textarea {
+  resize: vertical;
+}
+
+.truong-lien-he input:focus,
+.truong-lien-he textarea:focus {
+  border-color: var(--mau-nut);
+  outline: 2px solid var(--mau-nut);
+  outline-offset: 1px;
+}
+
+.form-lien-he button {
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.khoi-lien-he .ghi-chu-form {
+  margin: var(--khoang-cach-vua) 0 0;
+  font-size: 0.875rem;
+}
+
 footer {
   padding: var(--khoang-cach-vua) var(--le-hai-ben);
   background-color: var(--mau-chan-trang);
@@ -271,6 +370,11 @@ img {
 
   .luoi-san-pham {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .luoi-chinh-sach,
+  .noi-dung-lien-he {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   footer {
