@@ -37,4 +37,6 @@ Bảng kiểm thử và ảnh minh chứng: `docs/kiem-thu.md`, thư mục `evid
 Dự án dùng Codex trong VS Code để hỗ trợ viết mã. Prompt, kết quả và cách kiểm tra từng lần ghi trong `AI_LOG.md`. 
 
 ## Nguồn ảnh
-Ảnh minh họa RAM, SSD, HDD là SVG tự vẽ, không lấy từ internet.
+
+Ảnh RAM là ảnh sản phẩm thực tế, lấy từ các trang Mexx, eBay, ROZETKA, Overclockers.ua và Cavuca.
+Ảnh SSD và HDD là ảnh SVG minh họa tự vẽ.
