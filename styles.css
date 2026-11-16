@@ -49,9 +49,23 @@ button,
   text-decoration: none;
 }
 
+a.nut {
+  transition: transform 0.2s ease;
+}
+
 .nut:hover {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+a.nut:hover {
+  transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.nut {
+    transition: none;
+  }
 }
 
 .nut:focus-visible {
@@ -184,6 +198,13 @@ main {
 
 #ram .the-san-pham img {
   height: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+#ssd .the-san-pham img,
+#hdd .the-san-pham img {
+  aspect-ratio: 8 / 5;
   object-fit: contain;
   object-position: center;
 }
