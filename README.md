@@ -38,5 +38,19 @@ Dự án dùng Codex trong VS Code để hỗ trợ viết mã. Prompt, kết qu
 
 ## Nguồn ảnh
 
-Ảnh RAM là ảnh sản phẩm thực tế, lấy từ các trang Mexx, eBay, ROZETKA, Overclockers.ua và Cavuca.
-Ảnh SSD và HDD là ảnh SVG minh họa tự vẽ.
+Ảnh sản phẩm được lưu trong các thư mục `images/ram/`, `images/ssd/` và `images/hdd/`. Nguồn ảnh của từng sản phẩm đang hiển thị trên website:
+
+| Sản phẩm | Nguồn ảnh |
+|---|---|
+| RAM Laptop DDR4 8GB | [Mexx](https://mexx-img-2019.s3.amazonaws.com/Memoria-Ram-SODIMM-DDR4-8Gb-3200-Mhz-Kingston_49320_1.jpeg) |
+| RAM Laptop DDR4 16GB | [eBay](https://i.ebayimg.com/images/g/uX8AAeSwcdNp1Zjx/s-l1600.jpg) |
+| RAM Laptop DDR5 16GB | [ROZETKA](https://content2.rozetka.com.ua/goods/images/big/361186262.jpg) |
+| RAM PC DDR4 8GB | [Overclockers.ua](https://www.overclockers.ua/memory/crucial-ballistix-bl32g32c16u4wl-ct8g4dfra32a/10-crucial-ct8g4dfra32a.jpg) |
+| RAM PC DDR5 16GB | [Cavuca](https://images.tcdn.com.br/img/img_prod/591628/memoria_16gb_crucial_ddr5_5600mhz_cl46_ct16g56c46u5_40113_1_cafa3ee3f4e3a993a42151b04c623def.jpg) |
+| SSD SATA 256GB | [Ảnh gốc](https://cdn11.bigcommerce.com/s-23fyjn725n/images/stencil/1280x1280/products/109715/115368/MZ-7PC256D-WW__65488.1711840157.jpg?c=2) |
+| SSD SATA 512GB | [Ảnh gốc](https://5b0988e595225.cdn.sohucs.com/images/20190728/bdabad87d03d4fd8bc206c90331985c0.png) |
+| SSD NVMe 512GB | [Computer Bild](https://i.computer-bild.de/imgs/6/4/6/3/2/9/7/Samsung-970-Pro-512GB-1024x576-1ec9d213ae42298d.jpg?impolicy=image_gallery_desktop) |
+| SSD NVMe 1TB | [eBay](https://i.ebayimg.com/images/g/QBwAAeSw9O9pvBCw/s-l1600.jpg) |
+| HDD Laptop 1TB | [eBay](https://i.ebayimg.com/images/g/uOoAAOSwFI9oOS-U/s-l1200.jpg) |
+| HDD PC 2TB | [eBay](https://i.ebayimg.com/images/g/nAUAAeSwHBlojNyo/s-l1200.jpg) |
+
