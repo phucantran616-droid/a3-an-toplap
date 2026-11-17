@@ -132,33 +132,152 @@ main {
   margin-top: var(--khoang-cach-lon);
 }
 
-.banner,
-.nhom-san-pham {
+.trang-chu .banner,
+.trang-chu .nhom-san-pham {
   padding: var(--khoang-cach-lon);
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   background-color: var(--mau-sang);
 }
 
-.banner {
-  border-left: 4px solid var(--mau-chu-dao);
+.trang-chu .banner {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2rem, 5vw, 4rem);
+  color: var(--mau-sang);
+  background-color: var(--mau-chu-dao);
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.07) 0 2px, transparent 2.5px),
+    repeating-linear-gradient(0deg, transparent 0 37px, rgba(255, 255, 255, 0.04) 37px 38px, transparent 38px 74px),
+    repeating-linear-gradient(135deg, transparent 0 52px, rgba(255, 255, 255, 0.04) 52px 53px, transparent 53px 104px),
+    linear-gradient(120deg, #27104F 0%, #3B1C7A 52%, #6334A3 100%);
+  background-size: 74px 74px, auto, auto, auto;
 }
 
-.banner h1,
-.nhom-san-pham h3 {
+.trang-chu .banner::before,
+.trang-chu .banner::after {
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.04);
+  content: "";
+  pointer-events: none;
+}
+
+.trang-chu .banner::before {
+  top: -6rem;
+  right: -3rem;
+  width: 18rem;
+  height: 18rem;
+}
+
+.trang-chu .banner::after {
+  right: 14%;
+  bottom: -6rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.trang-chu .banner > * {
+  position: relative;
+  z-index: 1;
+}
+
+.trang-chu .banner h1,
+.trang-chu .nhom-san-pham h3 {
   margin-top: 0;
 }
 
-.cac-nhom-san-pham {
+.trang-chu .banner h1 {
+  max-width: 19ch;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+}
+
+.trang-chu .banner p {
+  max-width: 42rem;
+}
+
+.trang-chu .banner .nut:focus-visible {
+  outline-color: var(--mau-sang);
+}
+
+.trang-chu > section > h1::after,
+.trang-chu > section > h2::after {
+  display: block;
+  width: 3rem;
+  height: 4px;
+  margin-top: 0.75rem;
+  border-radius: 999px;
+  background-color: var(--mau-nut);
+  content: "";
+}
+
+.trang-chu .thong-ke ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--khoang-cach-vua);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trang-chu .thong-ke li {
+  padding: 1.25rem;
+  border-top: 4px solid var(--mau-nut);
+  border-radius: 0.5rem;
+  background-color: var(--mau-sang);
+  color: var(--mau-chu-dao);
+  font-size: 1.125rem;
+}
+
+.trang-chu .thong-ke p {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+}
+
+.trang-chu .cac-nhom-san-pham {
   display: flex;
   gap: var(--khoang-cach-vua);
 }
 
-.nhom-san-pham {
+.trang-chu .nhom-san-pham {
   flex: 1;
+  min-width: 0;
+  border: 1px solid var(--mau-chu-chan-trang);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.nhom-san-pham a {
+.trang-chu .nhom-san-pham:hover,
+.trang-chu .nhom-san-pham:focus-within {
+  transform: translateY(-6px);
+  border-color: var(--mau-nut);
+  box-shadow: 0 12px 24px rgba(59, 28, 122, 0.16);
+}
+
+.trang-chu .bieu-tuong-nhom {
+  display: block;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-bottom: var(--khoang-cach-vua);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  background-color: #F0EAFB;
   color: var(--mau-chu-dao);
+}
+
+.trang-chu .nhom-san-pham a {
+  color: var(--mau-chu-dao);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trang-chu .nhom-san-pham {
+    transition: none;
+  }
+
+  .trang-chu .nhom-san-pham:hover,
+  .trang-chu .nhom-san-pham:focus-within {
+    transform: none;
+  }
 }
 
 .trang-san-pham h1 {
@@ -386,12 +505,16 @@ img {
     padding: var(--khoang-cach-vua) min(1rem, 4vw);
   }
 
-  .banner,
-  .nhom-san-pham {
+  .trang-chu .banner,
+  .trang-chu .nhom-san-pham {
     padding: var(--khoang-cach-vua);
   }
 
-  .cac-nhom-san-pham {
+  .trang-chu .thong-ke ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .trang-chu .cac-nhom-san-pham {
     flex-direction: column;
   }
 
@@ -415,8 +538,8 @@ img {
 }
 
 @media (max-width: 480px) {
-  .banner,
-  .nhom-san-pham,
+  .trang-chu .banner,
+  .trang-chu .nhom-san-pham,
   .the-san-pham {
     padding: min(1rem, 4vw);
   }
