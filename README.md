@@ -6,7 +6,7 @@ Website tĩnh HTML5/CSS3 giới thiệu cửa hàng linh kiện RAM, SSD, HDD (c
 - **Môn học:** Thiết kế web và triển khai phần mềm
 - **Website:** https://phucantran616-droid.github.io/a3-an-toplap/
 - **Repository:** https://github.com/phucantran616-droid/a3-an-toplap
-- **Phiên bản nộp:** v1.0 (tag `v1.0`)
+- **Phiên bản nộp:** v1.1 (tag `v1.1`)
 
 ## Nội dung
 4 trang: Trang chủ, Sản phẩm (11 sản phẩm chia 3 nhóm RAM, SSD, HDD), Chính sách, Liên hệ. Giao diện responsive cho màn hình rộng và hẹp .
