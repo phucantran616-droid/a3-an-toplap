@@ -6,6 +6,16 @@
 - Chính sách (chinh-sach.html): bảo hành, đổi trả, giao hàng.
 - Liên hệ (lien-he.html): số điện thoại, email, giờ làm việc, form minh họa.
 
+## Ảnh minh chứng wireframe
+
+### Trang chủ
+
+![Bố cục trang chủ với banner và ba nhóm RAM, SSD, HDD trên màn hình 1280 px và 375 px](../evidence/wireframe-trang-chu.png)
+
+### Sản phẩm
+
+![Lưới thẻ sản phẩm hiển thị bốn cột ở độ rộng 1280 px và một cột ở độ rộng 375 px](../evidence/wireframe-san-pham.png)
+
 ## Wireframe màn hình rộng
 ```
 +--------------------------------------------------+
